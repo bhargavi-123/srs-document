@@ -1,0 +1,13 @@
+Feature: Delivering Products
+
+Scenario: To check whether product is delivered to user or not
+Given user successfully placed the order
+When user recives the order
+Then display the message as order recieved
+
+Scenario: To check whether inventory is updated or not
+Given user successfully placed the order
+When user recieves the order
+Then update the inventory
+
+ 
